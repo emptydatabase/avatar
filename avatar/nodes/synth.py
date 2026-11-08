@@ -7,7 +7,7 @@ from functools import singledispatchmethod
 from types import TracebackType
 
 from ..defaults import MPV_COMMAND, LANGUAGE
-from ..lib import synthesize
+from ..libs import synthesize
 from ..messages import Say, AssistantSaid, Message, Speaking, StopTalking
 from ..node import Node
 

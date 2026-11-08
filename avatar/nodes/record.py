@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 from ..defaults import AUDIO_RATE, AUDIO_FORMAT, AUDIO_CHANNELS, AUDIO_CHUNK_SIZE, LANGUAGE
-from ..lib import transcribe
+from ..libs import transcribe
 from ..messages import TranscriptionResult, TranscriptionPartial, Recording
 from ..node import ThreadNode
 
