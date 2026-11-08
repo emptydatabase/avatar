@@ -1,0 +1,15 @@
+import pyaudio
+
+LANGUAGE = "it"
+
+FACE_CAPTION = "AVATAR"
+FACE_FONT = "Comic Sans MS"
+
+OLLAMA_URL = "http://localhost:11434"
+
+MPV_COMMAND = "mpv -"
+
+AUDIO_FORMAT = pyaudio.paInt16
+AUDIO_CHANNELS = 1
+AUDIO_RATE = 16000
+AUDIO_CHUNK_SIZE = 2048
